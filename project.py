@@ -15,7 +15,7 @@ with st.sidebar:
         "https://www.kaggle.com/datasets/kacpergregorowicz/-mens-volleyball-plusliga-20082022/data"
     )
 
-df = pd.read_csv("/Users/happy394/Library/Mobile Documents/com~apple~CloudDocs/HSE/Python/project_1/Mens-Volleyball-PlusLiga-2008-2023.csv")
+df = pd.read_csv("Mens-Volleyball-PlusLiga-2008-2023.csv")
 
 df.drop(["T1_Srv_Sum", "T1_Srv_Err", "T1_Srv_Ace", "T1_Rec_Sum", "T1_Rec_Err", "T1_Rec_Perf", "T1_Att_Sum", "T1_Att_Err", "T1_Att_Kill",
          "T1_Att_Kill_Perc", "T1_Rec_Pos", "T1_Att_Blk", "T1_Sum", "T1_BP", "T1_Ratio",
